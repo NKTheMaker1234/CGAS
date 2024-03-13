@@ -1,3 +1,16 @@
 header {
-  background-color: hsla(57, 100%, 50%, 0.534);
+  background-color: #ffb676bd;
+}
+
+.btn-primary {
+  background-color: #5c0303 !important;
+  border-color: #5c0303 !important;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #5c0303;
+}
+
+.nav-link {
+  color: #5c0303;
 }
