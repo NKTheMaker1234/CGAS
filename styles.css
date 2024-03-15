@@ -2,15 +2,22 @@ header {
   background-color: #ffb676bd;
 }
 
-.btn-primary {
-  background-color: #5c0303 !important;
-  border-color: #5c0303 !important;
+/* Nav Bar */
+.nav-link {
+  color: #5c0303;
 }
 
 .nav-pills .nav-link.active {
   background-color: #5c0303;
 }
 
-.nav-link {
-  color: #5c0303;
+/* Buttons */
+.btn-primary {
+  background-color: #5c0303 !important;
+  border-color: #5c0303 !important;
+}
+
+/* Jumbotron with the Page Name */
+.bg-body-tertiary {
+  background-color: #ffdd76e8 !important;
 }
