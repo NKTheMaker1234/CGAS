@@ -1,8 +1,18 @@
+body {
+  background-color: #fdfdfdbd
+}
+
+
 header {
-  background-color: #ffb676bd;
+  background-color: #f8f7f5bd;
 }
 
 /* Nav Bar */
+
+.link-body-emphasis{
+  color:#920200 !important;
+}
+
 .nav-link {
   color: #5c0303;
 }
@@ -20,4 +30,10 @@ header {
 /* Jumbotron with the Page Name */
 .bg-body-tertiary {
   background-color: #ffdd76e8 !important;
+}
+
+
+/* Footer */
+.text-body-secondary {
+  color:black !important;
 }
