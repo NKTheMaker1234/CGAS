@@ -17,11 +17,12 @@
     <!-- Navigation Header -->
 
     <header
-      class="d-flex flex-wrap justify-content-center py-3 border-bottom border-dark"
+      class="py-3 border-bottom border-dark"
     >
+    <div class="container d-flex flex-wrap justify-content-center py-3 d-none d-md-flex">
       <a
         href="/CGAS/Website"
-        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none title"
+        class="align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none title"
       >
         <svg class="bi me-2" width="40" height="32">
           <use xlink:href="#"></use>
@@ -45,6 +46,38 @@
           <a href="/CGAS/Website/contactUs.html" class="nav-link">Contact Us</a>
         </li>
       </ul>
+      
+    </div>
+
+      <!-- Mobile Collapsable Navbar -->
+
+      <nav class="navbar d-xs-flex d-md-none">
+        <div class="container">
+          <a class="navbar-brand fs-3 fw-bolder title" href="/CGAS/Website">CG and Sons Co</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mobileNav">
+              <ul class="navbar-nav">
+                <li class="nav-item border-bottom border-dark border-2">
+                  <a href="/CGAS/Website" class="nav-link fw-semibold active" aria-current="page"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item border-bottom border-dark border-2">
+                  <a href="/CGAS/Website/about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item border-bottom border-dark border-2">
+                  <a href="/CGAS/Website/careers.html" class="nav-link">Careers</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/CGAS/Website/contactUs.html" class="nav-link">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+    
     </header>
 
     <!-- Home Page Carousel displaying the franchise locations w/ Pictures -->
@@ -310,13 +343,7 @@
         @ 2024 CG and Sons Web Portal
       </p>
 
-      <a
-        href="/"
-        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-      >
-      </a>
-
-      <ul class="nav col-md-4 px-4 justify-content-end">
+      <ul class="nav col-md-4 px-4 justify-content-end d-none d-md-inline-flex">
         <li class="nav-item">
           <a href="/CGAS/Website/" class="nav-link px-2 text-body-secondary"
             >Home</a

@@ -1,7 +1,6 @@
 body {
-  background-color: #fdfdfdbd
+  background-color: #f7ebebbd;
 }
-
 
 header {
   background-color: #f8f7f5bd;
@@ -9,8 +8,8 @@ header {
 
 /* Nav Bar */
 
-.link-body-emphasis{
-  color:#920200 !important;
+.link-body-emphasis {
+  color: #920200 !important;
 }
 
 .nav-link {
@@ -19,6 +18,12 @@ header {
 
 .nav-pills .nav-link.active {
   background-color: #5c0303;
+}
+
+/* Mobile Nav Bar */
+
+.navbar-brand {
+  color: #920200;
 }
 
 /* Buttons */
@@ -32,8 +37,8 @@ header {
   background-color: #ffdd76e8 !important;
 }
 
-
 /* Footer */
+
 .text-body-secondary {
-  color:black !important;
+  color: black !important;
 }
