@@ -59,3 +59,9 @@ header {
   right: 0 !important;
   left: 0 !important;
 }
+
+/* Link Colors */
+.link-primary {
+  color: #920200 !important;
+  text-decoration-color: #972220 !important;
+}
