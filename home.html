@@ -54,7 +54,7 @@
       <nav class="navbar d-xs-flex d-md-none">
         <div class="container">
           <a class="navbar-brand fs-3 fw-bolder title" href="/CGAS/Website">CG and Sons Co</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-label="Navigation Bar Button">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="mobileNav">
@@ -88,7 +88,7 @@
           type="button"
           data-bs-target="#myCarousel"
           data-bs-slide-to="0"
-          class=""
+          class="active"
           aria-label="Slide 1"
         ></button>
         <button
@@ -96,7 +96,7 @@
           data-bs-target="#myCarousel"
           data-bs-slide-to="1"
           aria-label="Slide 2"
-          class="active"
+          class=""
           aria-current="true"
         ></button>
         <button
@@ -106,97 +106,99 @@
           aria-label="Slide 3"
           class=""
         ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+          class=""
+        ></button>
       </div>
 
       <div class="carousel-inner">
-        <div class="carousel-item">
-          <img
-            src="assets/homeSample_Jon_Perry.jpg"
-            class="bd-placeholder-img opacity-75"
-            alt="Sample Image by Jon Perry"
-            width="100%"
-            height="100%"
-            aria-hidden="true"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <rect
-              width="100%"
-              height="100%"
-              fill="var(--bs-secondary-color)"
-            ></rect>
-        </img>
-          <div class="container">
-            <div class="carousel-caption text-start px-5 mx-5 text-dark d-none d-lg-block">
-              <h1>Sample headline.</h1>
-              <p class="text-dark">
-                Shot taken on 2024, Pares Retiro Fisher Mall QC.
-              </p>
-            </div>
-          </div>
-        </div>
-
         <div class="carousel-item active">
           <img
-            src="assets/pexels-igor-starkov-1307698.jpg"
-            class="bd-placeholder-img opacity-75"
-            alt="Pepper Lunch Placeholder"
+            src="assets/Curated Photos/Pares_169_Shot1_ED.jpg"
+            class="bd-placeholder-img"
+            alt="Pares Retiro full store shot in 16:9 by Gabriel Go"
             width="100%"
-            height="100%"
+            height="70%"
             aria-hidden="true"
             preserveAspectRatio="xMidYMid slice"
             focusable="false"
           >
             <rect
               width="100%"
-              height="100%"
+              height="70%"
               fill="var(--bs-secondary-color)"
             ></rect>
-          </svg>
-          <div class="container">
-            <div class="carousel-caption d-none d-lg-block">
-              <h1>Another example headline.</h1>
-              <p class="">
-                Some representative placeholder content for the second slide of
-                the carousel.
-              </p>
-            </div>
-          </div>
+        </img>
         </div>
 
         <div class="carousel-item">
           <img
-            src="assets/contactUs_Julian_Hochgesang.jpg"
-            class="bd-placeholder-img opacity-75"
-            alt="Macbook with phone by Julian Hochgesang"
+            src="assets/Curated Photos/Pepper_169_Shot2_ED.jpg"
+            class="bd-placeholder-img"
+            alt="Pepper Lunch full store shot in 16:9 by Gabriel Go"
             width="100%"
-            height="100%"
+            height="70%"
             aria-hidden="true"
             preserveAspectRatio="xMidYMid slice"
             focusable="false"
           >
             <rect
               width="100%"
-              height="100%"
+              height="70%"
               fill="var(--bs-secondary-color)"
             ></rect>
         </img>
-          <div class="container">
-            <div class="carousel-caption text-end px-5 mx-5 text-dark d-none d-lg-block">
-              <h1>Contact Lines Open.</h1>
-              <p class="text-dark">
-                Some representative placeholder content for the third slide of
-                this carousel.
-              </p>
-            </div>
-          </div>
         </div>
+
+        <div class="carousel-item">
+          <img
+            src="assets/Curated Photos/ParesSign1.jpg"
+            class="bd-placeholder-img"
+            alt="Pares Retiro Sign shot by Gabriel Go"
+            width="100%"
+            height="70%"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <rect
+              width="100%"
+              height="70%"
+              fill="var(--bs-secondary-color)"
+            ></rect>
+        </img>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="assets/Curated Photos/PepperSign1.jpg"
+            class="bd-placeholder-img"
+            alt="Pepper Lunch Sign shot by Gabriel Go"
+            width="100%"
+            height="70%"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <rect
+              width="100%"
+              height="70%"
+              fill="var(--bs-secondary-color)"
+            ></rect>
+        </img>
+        </div>
+
       </div>
       <button
         class="carousel-control-prev"
         type="button"
         data-bs-target="#myCarousel"
         data-bs-slide="prev"
+        aria-label="Previous Slide Button"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -206,6 +208,7 @@
         type="button"
         data-bs-target="#myCarousel"
         data-bs-slide="next"
+        aria-label="Next Slide Button"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
@@ -213,13 +216,14 @@
     </div>
 
     <!-- Featurette for About and Contact Us Display -->
-    <hr class="featurette-divider"/>
+
+    <hr class="featurette-divider mt-0 mb-5"/>
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-semibold lh-1 px-5 mb-3 mt-3">
+        <h1 class="featurette-heading fw-semibold lh-1 px-5 mb-3 mt-3" aria-label="About Page Header">
           Know more about CG and Sons Co.
-        </h2>
+        </h1>
         <p class="fs-5 px-5 pt-3">
           Founded in 2022, our partnership is dedicated to delivering top-tier food services and maintaining the highest quality standards across all the franchise brands that we collaborate with. Additionally, we strive to cultivate a conducive and supportive workplace for our fellow Filipinos.
         </p>
@@ -227,46 +231,45 @@
           Learn more about us through the button below.
         </p>
         <p>
-          <a class="btn btn-primary mx-5" href="/CGAS/Website/about.html"
+          <a class="btn btn-primary mx-5 d-none d-md-inline" href="/CGAS/Website/about.html" aria-label="Go to Page Button"
+            >Go to Page »</a
+          >
+            <!-- Mobile  -->
+          <a class="btn btn-primary mx-5 mb-4 d-sm-inline d-md-none" href="/CGAS/Website/about.html" aria-label="Go To Page Mobile Button"
             >Go to Page »</a
           >
         </p>
       </div>
       <div class="col-md-5">
-        <svg
-          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-          width="500"
-          height="500"
-          xmlns="http://www.w3.org/2000/svg"
-          role="img"
-          aria-label="Placeholder: 500x500"
-          preserveAspectRatio="xMidYMid slice"
+        <img
+          src="assets/People_Talking_Headway.jpg"
+          class="img-fluid mx-auto"
+          alt="People talking to each other Stock Photo by Headway"
+          width="100%"
+          height="100%"
+          aria-label="People talking to each other Stock Photo"
           focusable="false"
         >
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
-          <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-            500x500
-          </text>
-        </svg>
+          <title>People talking to each other Stock Photo by Headway</title>
+      </img>
       </div>
     </div>
 
-    <hr class="featurette-divider" />
+    <hr class="featurette-divider mt-5 mb-5 opacity-100 border-3" />
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2 d-none d-md-block">
-        <h2 class="featurette-heading fw-semibold lh-1 mt-3">
+        <h1 class="featurette-heading fw-semibold lh-1 mt-3" aria-label="Careers Page Header">
           Work with CG and Sons Co.
         </h2>
-        <p class="fs-5 pe-5 pt-4">
+        <p class="fs-5 pe-5 pt-4" >
           We at CG and Sons Co are committed to creating a work environment that can allow anyone to showcase their talents and skills to their fullest extent as well as open up new opportunities for people who are looking to start or progress their career.
         </p>
         <p class="fs-5 pe-5 pt-2 pb-3">
           If you are interested in joining our ever expanding crew, you may check the Careers Page in the button below.
         </p>
         <p>
-          <a class="btn btn-primary" href="/CGAS/Website/careers.html"
+          <a class="btn btn-primary" href="/CGAS/Website/careers.html" aria-label="Go to Page Button"
             >Go to Page »</a
           >
         </p>
@@ -275,9 +278,9 @@
       <!-- For Mobile in this Section Only -->
       
       <div class="col-md-7 d-sm-block d-md-none">
-        <h2 class="featurette-heading fw-semibold lh-1 px-5 mb-3 mt-3">
+        <h1 class="featurette-heading fw-semibold lh-1 px-5 mb-3 mt-2" aria-label="Careers Page Mobile Header">
           Work with CG and Sons Co.
-        </h2>
+        </h1>
         <p class="fs-5 px-5 pt-3">
           We at CG and Sons Co are committed to creating a work environment that can allow anyone to showcase their talents and skills to their fullest extent as well as open up new opportunities for people who are looking to start or progress their career.
         </p>
@@ -285,39 +288,34 @@
           If you are interested in joining our ever expanding crew, you may check the Careers Page in the button below.
         </p>
         <p>
-          <a class="btn btn-primary mx-5" href="/CGAS/Website/careers.html"
+          <a class="btn btn-primary mx-5 mb-4" href="/CGAS/Website/careers.html" aria-label="Go to Page Mobile Button"
             >Go to Page »</a
           >
         </p>
       </div>
 
       <div class="col-md-5 order-md-1">
-        <svg
-          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-          width="500"
-          height="500"
-          xmlns="http://www.w3.org/2000/svg"
-          role="img"
-          aria-label="Placeholder: 500x500"
-          preserveAspectRatio="xMidYMid slice"
+        <img
+          src="assets/Restaurant_by_Igor_Starkov.jpg"
+          class="img-fluid mx-auto"
+          alt="Restaurant Stock Photo by Igor Starkov"
+          width="100%"
+          height="100%"
+          aria-label="Restaurant Stock Photo"
           focusable="false"
         >
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
-          <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-            500x500
-          </text>
-        </svg>
+          <title>Restaurant Stock Photo by Igor Starkov</title>
+      </img>
       </div>
     </div>
 
-    <hr class="featurette-divider" />
+    <hr class="featurette-divider mt-5 mb-5 opacity-100 border-3"/>
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-semibold lh-1 px-5 mt-3 mb-3">
+        <h1 class="featurette-heading fw-semibold lh-1 px-5 mt-3 mb-3" aria-label="Contact Us Page Header">
           Contact the Company Here.
-        </h2>
+        </h1>
         <p class="fs-4 px-5 pt-3">
           If you have any questions, comments or further inquiries towards
           anything related to CG and Sons Co. 
@@ -327,36 +325,35 @@
           the page linked to the button below through our contact numbers or
           through the given inquiry form.
         </p>
-          <a class="btn btn-primary mx-5" href="/CGAS/Website/contactUs.html"
+          <a class="btn btn-primary mx-5 d-none d-md-inline" href="/CGAS/Website/contactUs.html"
+            >Go to Page »</a
+          >
+          <!-- Mobile Button -->
+          <a class="btn btn-primary mx-5 mb-4 d-sm-inline d-md-none" href="/CGAS/Website/contactUs.html" 
             >Go to Page »</a
           >
         </p>
       </div>
       
       <div class="col-md-5">
-        <svg
-          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-          width="500"
-          height="500"
-          xmlns="http://www.w3.org/2000/svg"
-          role="img"
-          aria-label="Placeholder: 500x500"
-          preserveAspectRatio="xMidYMid slice"
+        <img
+          src="assets/Phone_by_Julian_Hochgesang.jpg"
+          class="img-fluid mx-auto"
+          alt="Phone Stock Photo by Julian Hochgesang"
+          width="100%"
+          height="100%"
+          aria-label="Phone Stock Photo"
           focusable="false"
         >
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
-          <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-            500x500
-          </text>
-        </svg>
+          <title>Phone Stock Photo by Julian Hochgesang</title>
+      </img>
       </div>
     </div>
 
     <!-- Website Footer -->
 
     <footer
-      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-5 border-top"
     >
       <p class="col-md-4 mb-0 px-4 text-body-secondary d-none d-lg-inline-flex">
         @ 2024 CG and Sons Web Portal
