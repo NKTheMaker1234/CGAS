@@ -1,9 +1,11 @@
 body {
   background-color: #f7ebebbd;
+  font-family: "Noto Sans", sans-serif;
 }
 
 header {
   background-color: #f8f7f5bd;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Nav Bar */
@@ -44,6 +46,8 @@ header {
 }
 
 /* Home Page Carousel Adjustment */
+/* Based on an source in SitePoint */
+/* Credits are here https://www.sitepoint.com/community/t/bootstrap-carousel-white-space-issue/257067*/
 
 .row {
   margin: 0 !important;
